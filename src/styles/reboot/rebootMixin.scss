@@ -1,13 +1,13 @@
 /* stylelint-disable */
 @mixin hover {
-    &:hover {
-      @content;
-    }
+  &:hover {
+    @content;
   }
-  
-  @mixin hover-focus {
-    &:hover,
-    &:focus {
-      @content;
-    }
+}
+
+@mixin hover-focus {
+  &:hover,
+  &:focus {
+    @content;
   }
+}
