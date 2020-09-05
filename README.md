@@ -1,3 +1,14 @@
+- Create React App
+- Sass
+- Storybook
+- Eslint with Airbnb
+- Prettier
+- Stylelint
+- Pre-Commit Hooks
+- React Testing Library
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
