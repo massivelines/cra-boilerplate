@@ -1,3 +1,13 @@
+// Import files
+// Reboot is like normalized but is extracted from bootstrap, it uses rem values
+// Reboot also has some defined variables in 'rebootVars.scss', including colors like $white, $$gray-100, ...
+
+@import './reboot/reboot';
+@import './vars';
+@import './mixins';
+@import '../components/index';
+
+// Global Styles
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

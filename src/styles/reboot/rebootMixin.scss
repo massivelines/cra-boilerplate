@@ -1,0 +1,13 @@
+/* stylelint-disable */
+@mixin hover {
+    &:hover {
+      @content;
+    }
+  }
+  
+  @mixin hover-focus {
+    &:hover,
+    &:focus {
+      @content;
+    }
+  }

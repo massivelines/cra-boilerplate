@@ -1,0 +1,43 @@
+.react-app {
+  text-align: center;
+}
+
+.react-app-logo {
+  height: 20vmin;
+  pointer-events: none;
+
+  // example - code for mobile first and on medium breakpoint size increase logo height
+  @include screenSize(md) {
+    height: 40vmin;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-app-logo {
+    animation: react-app-logo-spin infinite 20s linear;
+  }
+}
+
+.react-app-header {
+  background-color: $darkBlue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $white;
+}
+
+.react-app-link {
+  color: $blue;
+}
+
+@keyframes react-app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
